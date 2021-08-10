@@ -1,0 +1,345 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Token.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="NumberToken.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="IdToken.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="StrToken.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Lexer.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ASTLeaf.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ASTList.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Object.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Exception.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ParserException.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Integer.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="String.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Boolean.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="BasicEnvironment.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Native.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Function.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="NestedEnvironment.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="NativeFunction.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Class.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="StoneObject.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Array.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="NumberLiteral.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Name.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="StringLiteral.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="BinaryExpr.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="PrimaryExpr.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ArrayRef.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ArrayLiteral.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Dot.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="IfStmt.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="WhileStmt.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="DefStmt.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="BlockStmt.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ClassStmt.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ClassBody.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Arguments.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ParameterList.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="NegativeExpr.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Logic.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="BasicParser.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="FunctionParser.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ClassParser.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ArrayParser.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="NegExpr.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ForStmt.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Token.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="NumberToken.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="IdToken.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="StrToken.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Lexer.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ASTree.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ASTLeaf.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ASTList.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Object.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Exception.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ParserException.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Integer.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="String.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Boolean.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Function.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Environment.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="BasicEnvironment.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Native.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="NestedEnvironment.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="NativeFunction.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Class.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="StoneObject.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Array.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="NumberLiteral.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Name.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="BinaryExpr.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="StringLiteral.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PrimaryExpr.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Postfix.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ArrayRef.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ArrayLiteral.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Dot.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="IfStmt.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="WhileStmt.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Def.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="BlockStmt.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="NullStmt.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ClassStmt.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ClassBody.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Arguments.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ParameterList.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="BasicParser.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Logic.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Rule.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="NumberLogic.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="StringLogic.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="IdLogic.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="SepLogic.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="AstLogic.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="OptionLogic.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="MaybeLogic.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="OrLogic.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="RepeatLogic.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ExprLogic.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ListRule.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="OrRule.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ParserFctor.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ClassParser.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="FunctionParser.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ArrayParser.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="NegExpr.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ForStmt.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
