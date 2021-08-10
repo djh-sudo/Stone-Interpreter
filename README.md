@@ -101,7 +101,7 @@ while(n>=1){
 }
 print("print over!")
 ```
-# Source demo1 - Bubble-Sort
+# Source demo2 - Bubble-Sort
 ```C
 a = [123,43,234,567,32,90,128,67,58,124,900]
 n = 11
@@ -118,7 +118,7 @@ print("Bubble Sort:",a)
 
 ```
 
-# Source demo1 - class
+# Source demo3 - class
 ```C
 class Position{
 	x = 0
