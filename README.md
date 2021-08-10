@@ -77,3 +77,72 @@
 # What can you do
 1. add more default naviveFunction like I/O
 2. Generate intermediate code, This part you can read book
+
+# Demo
+open you cmd,and input `gcc [filename] [-s]`,filename is path of source code you want to intepreter and -s is optional chose,which means step by step output 
+```
+stone.exe gcc ../t.st -s
+```
+# Source demo1 - Fibonacci
+```C
+def Foo(n){
+	if(n == 0 || n == 1){
+	1
+	}else{
+		Foo(n-1) + Foo(n-2)
+	}
+}
+
+n = 20
+while(n>=1){
+	g = Foo(n)
+	n = n - 1
+	print("F(",n,")=>",g)
+}
+print("print over!")
+```
+# Source demo1 - Bubble-Sort
+```C
+a = [123,43,234,567,32,90,128,67,58,124,900]
+n = 11
+for(i=0;i<n-1;i=i+1){
+	for(j=i;j<n;j=j+1){
+		if(a[i]>a[j]){
+			temp = a[i]
+			a[i] = a[j]
+			a[j] = temp
+		}
+	}
+}
+print("Bubble Sort:",a)
+
+```
+
+# Source demo1 - class
+```C
+class Position{
+	x = 0
+	y = 0
+	array = [1,2,3,4]
+	def move(nx,ny){
+		x = nx
+		y = ny
+	}
+}
+p = Position.new
+print("before:",p.x,p.y)
+p.move(3,4)
+print("after:",p.x,p.y)
+
+class Position3D extends Position{
+	z = 0
+	def move(nx,ny,nz){
+	x = nx;y=ny
+	z = nz
+}
+}
+p3d = Position3D.new
+p3d.move(1,2,3)
+print(p3d.x,p3d.y,p3d.z)
+```
+
