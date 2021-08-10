@@ -3,7 +3,7 @@
 
 # Structure
 ```C
-  * Object [对象类型]
+  	* Object [对象类型]
 		-> Integer
 		-> String
 		-> Boolean
